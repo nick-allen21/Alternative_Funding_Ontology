@@ -1,0 +1,2170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/"
+     xml:base="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-8="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#date -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#eligible_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#eligible_for"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#has_code -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#has_code"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#has_domain -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#has_domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_affiliation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_affiliation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#deadline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#deadline">
+        <rdfs:comment>Application deadline.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#funding_amount -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#funding_amount">
+        <rdfs:comment>Funding amount per year.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#funding_length -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#funding_length">
+        <rdfs:comment>Funding length in years.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Application -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/contact -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/contact"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Jewish_World_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Jewish_World_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biologos_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biologos_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Breast_Cancer_Research_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Breast_Cancer_Research_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Codes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Codes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computational_Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computational_Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dalai_Lama_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dalai_Lama_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Energy_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Energy_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Gordon_and_Betty_Moore_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Gordon_and_Betty_Moore_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Individual_Investors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Individual_Investors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Investing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Investing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Investing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Israel_Science_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Israel_Science_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#John_Templeton_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#John_Templeton_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#King_Faisal_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#King_Faisal_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Codes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Codes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pharma_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pharma_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pontifical_Academy_of_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pontifical_Academy_of_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Prostate_Cancer_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Prostate_Cancer_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Qatar_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Qatar_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NSF"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Simons_Foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Simons_Foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Stand_Up_To_Cancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Stand_Up_To_Cancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Technology_Companies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Technology_Companies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Fetzer_Institute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Fetzer_Institute">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Religious_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Wellcome_Trust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Wellcome_Trust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Venture_Capital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Venture_Capital">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Investing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIH"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Affiliation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Affiliation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/African_American -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/African_American">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Agriculture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Agriculture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Heart_Association -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Heart_Association">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Cardiovascular_Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Nonprofit_Organizations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Psychological_Association -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Psychological_Association">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Psychology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Anthropology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Anthropology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Artificial_Intelligence -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Artificial_Intelligence">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Computer_Science"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Astronomy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Astronomy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biophysics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biostatics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biostatics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Statistics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biotechnology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biotechnology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Cardiovascular_Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Cardiovascular_Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Medicine"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Environmental_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Computer_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Computer_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Data_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Data_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Earth_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Earth_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Economics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Economics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Education -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Education">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Electromagnetism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Electromagnetism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Engineering -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Engineering">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Environmental_Sciences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Environmental_Sciences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Artificial_Intelligence"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Genetics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Genetics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Geography -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Geography">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Fund -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Fund">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Agriculture"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_affiliation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Nonprofit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Inorganic_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Inorganic_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Organic_Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/JD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/JD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Large_Language_Models -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Large_Language_Models">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Artificial_Intelligence"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Logic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Logic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Mathematics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Mathematics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Medicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Medicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Microbiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Microbiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Neuroscience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Neuroscience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Nonprofit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Nonprofit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Affiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Organic_Chemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Organic_Chemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biology"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petrochemistry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petrochemistry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petroleum_Research_Fund -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petroleum_Research_Fund">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petrochemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmaceuticals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmaceuticals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Chemistry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Political_Science -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Political_Science">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Psychology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Psychology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Quantum_Mechanics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Quantum_Mechanics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Mechanics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Relativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Relativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Robotics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Robotics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Scholarships -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Scholarships">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Society_for_Neuroscience -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Society_for_Neuroscience">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Neuroscience"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Sociology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Sociology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Social_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Staff_Scientist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Staff_Scientist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Statistics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Statistics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Sustainability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Sustainability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_affiliation"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/TestTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/TestTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Thermodynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Thermodynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Physics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Affiliation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#AGS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#AGS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#AST -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#AST">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Jewish_World_Service -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Jewish_World_Service"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BCS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BCS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biologos_Foundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biologos_Foundation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Biology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CBET -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CBET">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CCF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CCF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CHE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CHE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CMMI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CMMI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CNS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CNS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Chemistry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Chemistry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Clinician_Scientist_Development_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Clinician_Scientist_Development_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computer_Science -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computer_Science"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DBI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DBI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DEB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DEB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DGE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DGE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-Rachleff_Innovation_Award -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-Rachleff_Innovation_Award">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-St_Jude_Pediatric_Cancer_Research_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-St_Jude_Pediatric_Cancer_Research_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DRL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DRL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Clinical_Investigator_Award -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Clinical_Investigator_Award">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Physician-Scientist_Training_Award -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Physician-Scientist_Training_Award">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Quantitative_Biology_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Quantitative_Biology_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DUE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DUE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dalai_Lama_Trust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dalai_Lama_Trust"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Discovery_Boost_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Discovery_Boost_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
+        <untitled-ontology-8:eligible_for rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Principal_Investigator"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#date">06/01/2025</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">135000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dream_Team_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dream_Team_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Stand_Up_To_Cancer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EAR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EAR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ECCS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ECCS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EEC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EEC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EDU"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EF -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EF">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EFMA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EFMA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ENG"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Economics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Economics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Education"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Engineering -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Engineering"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Geosciences -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Geosciences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Graduate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Graduate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute">
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CBET"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIBIB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IIS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IIS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IOS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IOS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Research_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Research_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Stand_Up_To_Cancer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Israel_Science_Foundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Israel_Science_Foundation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#JT_Online_Funding_Inquiry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#JT_Online_Funding_Inquiry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#John_Templeton_Foundation"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMS"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PHY"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SES"/>
+        <untitled-ontology-8:has_domain rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Economics"/>
+        <untitled-ontology-8:deadline>08/15/2025</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#John_Templeton_Foundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#John_Templeton_Foundation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#King_Faisal_Foundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#King_Faisal_Foundation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#LLS_Career_Development_Program -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#LLS_Career_Development_Program">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#LLS_Specialized_Center_of_Research -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#LLS_Specialized_Center_of_Research">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia_Exploration_and_Prevention_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia_Exploration_and_Prevention_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
+        <untitled-ontology-8:eligible_for rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Principal_Investigator"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NHLBI"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NICHD"/>
+        <untitled-ontology-8:deadline>12/1/2025</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Mathematics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Mathematics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Medicine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Medicine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCCIH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCCIH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCSES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCSES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NEI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NEI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NHGRI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NHGRI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computational_Biology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NHLBI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NHLBI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAAA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAAA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAID -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAID">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIAMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIBIB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIBIB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Computational_Biology"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NICHD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NICHD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDCD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDCD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDCR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDCR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDDK -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIDDK">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIGMS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIGMS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMHD -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMHD">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NINDS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NINDS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NINR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NINR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#General_Medicine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OAC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OAC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CISE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OAR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OAR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pyschology+Psychiatry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OCE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OCE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ODP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ODP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Public_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OPP -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OPP">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ORWH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#ORWH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OSI -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OSI">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PCF_Challenge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PCF_Challenge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Prostate_Cancer_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PCF_Young_Investigaor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PCF_Young_Investigaor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Prostate_Cancer_Foundation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PHY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PHY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Physics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Physics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pontifical_Academy_of_Sciences -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pontifical_Academy_of_Sciences"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Post_Doc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Post_Doc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Postdoctoral_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Postdoctoral_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Principal_Investigator -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Principal_Investigator"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Psychology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Psychology"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Qatar_Foundation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Qatar_Foundation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#RISE -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#RISE">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Research_Scholar_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Research_Scholar_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
+        <untitled-ontology-8:eligible_for rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Principal_Investigator"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#date">06/01/2025</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">215000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SES">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SGMRO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SGMRO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SMA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SMA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#SBE"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Staff_Scientist -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Staff_Scientist"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Sustainability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Sustainability"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#THRO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#THRO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Precision_Health"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Fetzer_Institute -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Fetzer_Institute"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Undergraduate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Undergraduate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/APS_Innovation_Fund -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/APS_Innovation_Fund">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length>M1Y</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_Career_Award_Public_Engagement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_Career_Award_Public_Engagement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</untitled-ontology-8:funding_amount>
+        <Application>https://www.aaas.org/awards/early-career-public-engagement/about</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Experimental_Physics_Investigator_Initiative -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Experimental_Physics_Investigator_Initiative">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Fund"/>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length>P5Y</untitled-ontology-8:funding_length>
+        <Application>https://www.acs.org/funding/grants/herman-frasch-foundation-grant.html</Application>
+        <contact>fraschinfo@acs.org</contact>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frash_Foundation_Fund -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frash_Foundation_Fund">
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length>P5Y</untitled-ontology-8:funding_length>
+        <Application>https://www.acs.org/funding/grants/herman-frasch-foundation-grant.html</Application>
+        <contact>fraschinfo@acs.org</contact>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Innovation_Career_Professional_Development_Psychology -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Innovation_Career_Professional_Development_Psychology">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Psychological_Association"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/New_Directions_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/New_Directions_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petroleum_Research_Fund"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-13T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">125000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:funding_length>
+        <Application>https://www.acs.org/funding/grants/petroleum-research-fund/programs/new-directions-grants.html</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmacuetical_Roundtable_Research_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmacuetical_Roundtable_Research_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmaceuticals"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-17T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length>P12M</untitled-ontology-8:funding_length>
+        <Application>https://www.acs.org/funding/grants/acs-gci-pharmaceutical-roundtable-research-grant.html</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Postdoctoral_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Postdoctoral_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Heart_Association"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Predoctoral_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Predoctoral_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Heart_Association"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Science_Technology_Policy_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Science_Technology_Policy_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+        <Application>https://fellowshipapp.aaas.org/app/main/page/application-overview</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women_In_Pysics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women_In_Pysics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</untitled-ontology-8:funding_amount>
+        <Application>https://www.aps.org/funding-recognition/grant/women-group-grants</Application>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
