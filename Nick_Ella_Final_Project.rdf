@@ -536,6 +536,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#test2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#test2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society">
