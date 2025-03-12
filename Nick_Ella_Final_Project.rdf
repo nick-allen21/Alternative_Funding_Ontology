@@ -362,12 +362,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Location -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Location"/>
-    
-
-
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MPS">
@@ -1437,7 +1431,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DEB">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
     
 
 
@@ -1469,6 +1470,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-Rachleff_Innovation_Award">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IOS"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
     </owl:NamedIndividual>
     
 
@@ -1477,6 +1481,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR-St_Jude_Pediatric_Cancer_Research_Fellowship">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#IOS"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NICHD"/>
     </owl:NamedIndividual>
     
 
@@ -1493,6 +1502,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Clinical_Investigator_Award">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
     </owl:NamedIndividual>
     
 
@@ -1501,6 +1512,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DR_Fellowship">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Damon_Runyon_Cancer_Research_Foundation"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
     </owl:NamedIndividual>
     
 
@@ -1568,6 +1582,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Dream_Team_Grant">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Stand_Up_To_Cancer"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
     </owl:NamedIndividual>
     
 
@@ -2072,8 +2088,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University"/>
             </owl:Restriction>
         </rdf:type>
-        <Application rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500000</Application>
         <Application>https://www.pcf.org/science-impact/the-work-we-fund/challenge-awards/</Application>
+        <Application rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4500000</Application>
     </owl:NamedIndividual>
     
 
@@ -2098,8 +2114,8 @@
             </owl:Class>
         </rdf:type>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3</untitled-ontology-8:funding_length>
-        <Application rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75000</Application>
         <Application>https://winshipcancer.emory.edu/research/funding-opportunities/_files/2024-rfa-prostatecancerfdtn-young-investigator-award.pdf</Application>
+        <Application rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75000</Application>
     </owl:NamedIndividual>
     
 
@@ -2320,6 +2336,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-31T00:00:00Z</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:funding_length>
@@ -2346,6 +2363,10 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMH"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR"/>
     </owl:NamedIndividual>
     
 
@@ -2360,6 +2381,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
         <Application>https://cms.wellcome.org/sites/default/files/2025-01/RFP-LMIC-Cohort-Support.pdf</Application>
     </owl:NamedIndividual>
     
@@ -2384,6 +2406,11 @@
                 </owl:unionOf>
             </owl:Class>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CBET"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#MCB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIA"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMH"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NINDS"/>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:funding_length>
         <Application>https://www.sfn.org/careers/awards/early-career/donald-b-lindsley-prize-in-behavioral-neuroscience</Application>
@@ -2394,6 +2421,9 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_Career_Award_Public_Engagement -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_Career_Award_Public_Engagement">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Applied_Sciences"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Formal_Sciences"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
         <rdf:type>
@@ -2402,6 +2432,8 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DUE"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EES"/>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-8:funding_length>
         <Application>https://www.aaas.org/awards/early-career-public-engagement/about</Application>
@@ -2420,6 +2452,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PHY"/>
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-25T00:00:00Z</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250000</untitled-ontology-8:funding_amount>
         <Application>https://www.aps.org/funding-recognition/grant/experimental-physics-investigator</Application>
@@ -2430,6 +2463,7 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Gilliam_Fellows_Program -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Gilliam_Fellows_Program">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#BIO"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Biomedicine"/>
         <rdf:type>
@@ -2452,6 +2486,7 @@
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIGMS"/>
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T10:30:00-04:00</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-8:funding_length>
@@ -2482,6 +2517,8 @@
                 </owl:unionOf>
             </owl:Class>
         </rdf:type>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#EEC"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIGMS"/>
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T10:30:00-04:00</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">140000</untitled-ontology-8:funding_amount>
         <Application>https://www.hhmi.org/programs/hanna-h-gray-fellows</Application>
@@ -2493,6 +2530,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Grant">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Herman_Frasch_Foundation_Fund"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#CHE"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DEB"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#DMR"/>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length>P5Y</untitled-ontology-8:funding_length>
         <Application>https://www.acs.org/funding/grants/herman-frasch-foundation-grant.html</Application>
@@ -2911,7 +2952,15 @@
 
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate_and_Mental_Health_Award:_Uncovering_mechanisms_between_heat_and_mental_health -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate_and_Mental_Health_Award:_Uncovering_mechanisms_between_heat_and_mental_health"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate_and_Mental_Health_Award:_Uncovering_mechanisms_between_heat_and_mental_health">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Wellcome_Trust"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIEHS"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NIMH"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR"/>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1000000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length>3Y</untitled-ontology-8:funding_length>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
