@@ -317,6 +317,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Howard_Hughes_Medical_Institute">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -519,6 +525,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#The_Wellcome_Trust">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Philanthropy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -582,6 +594,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -2508,6 +2526,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Flagship_Pioneering_Fellowship -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Flagship_Pioneering_Fellowship">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Individual_Investors"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+        <Application>https://www.flagshippioneering.com/join/fellows</Application>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Gilliam_Fellows_Program -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Gilliam_Fellows_Program">
@@ -2903,6 +2936,21 @@
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-01T00:00:00Z</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">40000</untitled-ontology-8:funding_amount>
         <Application>https://www.simonsfoundation.org/grant/simons-dissertation-fellowship-in-mathematics/</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Spark_Stanford -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Spark_Stanford">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Individual_Investors"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+            </owl:Restriction>
+        </rdf:type>
+        <Application>https://sparkmed.stanford.edu/about-spark/membership/</Application>
     </owl:NamedIndividual>
     
 
