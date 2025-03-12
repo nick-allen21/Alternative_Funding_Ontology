@@ -2217,6 +2217,32 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Janett_Rosenberg_Trubatch_Career_Development_Award -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Janett_Rosenberg_Trubatch_Career_Development_Award">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_career_awards"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-24T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</untitled-ontology-8:funding_amount>
+        <Application>https://www.sfn.org/careers/awards/early-career/janett-rosenberg-trubatch-career-development-award</Application>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Julius_Axelrod_Prize -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Julius_Axelrod_Prize">
