@@ -1740,6 +1740,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Indiana_Academy_Of_Scientists_DEI_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Indiana_Academy_Of_Scientists_DEI_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/university_employed"/>
+        <Application>https://www.indianaacademyofscience.org/research-grants/dei-grants/</Application>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Research_Grant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Research_Grant">
@@ -1754,6 +1766,18 @@
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">750000</untitled-ontology-8:funding_amount>
         <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-8:funding_length>
         <Application>https://www.aacr.org/grants/su2c-innovative-research-grants/</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Student_Research_Grant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Innovative_Student_Research_Grant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underrepresented_Groups"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#OBSSR"/>
+        <Application>https://saba.abainternational.org/grants/innovative-student-research-grant-dei/</Application>
     </owl:NamedIndividual>
     
 
@@ -2177,6 +2201,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pfizer_Independent_Medical_Education -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pfizer_Independent_Medical_Education">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pfizer_Investigator_Sponsored_Research -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Pfizer_Investigator_Sponsored_Research">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NLM"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Physics -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Physics"/>
@@ -2240,6 +2285,30 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#RISE">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#GEO"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Regeneron_Postdoctoral_Program -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Regeneron_Postdoctoral_Program">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Natural_Sciences"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PostDoctoral"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#NCI"/>
+        <untitled-ontology-8:has_code rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#PHY"/>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4</untitled-ontology-8:funding_length>
+        <Application>https://www.regeneron.com/responsibility/stem-ecosystem-support/postdoctoral-training-program</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Regeneron_Prize_for_Creative_Innovation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Regeneron_Prize_for_Creative_Innovation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Corporate_Funding"/>
+        <Application>https://www.regeneron.com/responsibility/stem-ecosystem-support/regeneron-prize</Application>
     </owl:NamedIndividual>
     
 
