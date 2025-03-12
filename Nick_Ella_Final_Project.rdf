@@ -536,14 +536,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#test2 -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#test2">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Funding"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Leukemia+Lymphoma_Society">
@@ -578,6 +570,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/African_American">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underepresented_Groups"/>
     </owl:Class>
     
 
@@ -751,9 +744,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree"/>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underepresented_Groups"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_career_awards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_career_awards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Society_for_Neuroscience"/>
+    </owl:Class>
     
 
 
@@ -813,14 +822,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Finally_work_please_please_please_please -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Finally_work_please_please_please_please">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#test2"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Funding_Type"/>
@@ -855,6 +856,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -895,7 +902,7 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/JD -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/JD">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree"/>
     </owl:Class>
     
 
@@ -905,6 +912,14 @@
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Large_Language_Models">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Artificial_Intelligence"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Latin_Americans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Latin_Americans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
     </owl:Class>
     
 
@@ -920,7 +935,7 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree"/>
     </owl:Class>
     
 
@@ -958,6 +973,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Native_Americans -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Native_Americans">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Neuroscience -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Neuroscience">
@@ -983,6 +1006,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Outstanding_Career_Achievements -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Outstanding_Career_Achievements">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Society_for_Neuroscience"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petrochemistry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Petrochemistry">
@@ -1003,7 +1034,7 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree"/>
     </owl:Class>
     
 
@@ -1032,9 +1063,45 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PostDoctoral -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PostDoctoral">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Professor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Professor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Professor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
     </owl:Class>
     
@@ -1101,6 +1168,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Staff_Scientist">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate"/>
     </owl:Class>
     
 
@@ -1125,20 +1193,13 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Professor"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_affiliation"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/University"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/TestTest -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/TestTest">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Societies+Associations"/>
     </owl:Class>
     
 
@@ -1151,10 +1212,18 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underepresented_Groups -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underepresented_Groups">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Diversity_Equity_Inclusion"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Career_Position"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Degree"/>
     </owl:Class>
     
 
@@ -1910,14 +1979,22 @@
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Postdoctoral_Fellowship -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#Postdoctoral_Fellowship">
-        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8#American_Cancer_Society"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Generative_AI"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Cardiovascular_Disease"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
             </owl:Restriction>
         </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PostDoctoral"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80000</untitled-ontology-8:funding_amount>
+        <Application>https://professional.heart.org/en/research-programs/aha-funding-opportunities/postdoctoral-fellowship</Application>
     </owl:NamedIndividual>
     
 
@@ -2023,14 +2100,42 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/APS_Innovation_Fund">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Climate"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Principal_Investigator"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-03T00:00:00Z</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</untitled-ontology-8:funding_amount>
-        <untitled-ontology-8:funding_length>M1Y</untitled-ontology-8:funding_length>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:funding_length>
+        <Application>https://aps-innovation.smapply.io/prog/IF2025/?_gl=1*gco7l3*_gcl_au*MTIyNzgxMzEzOS4xNzQxNzE3ODI0*_ga*MTMzMzQzNjYwNy4xNzQxNzE3ODI0*_ga_1CCM6YP0WF*MTc0MTc1MTM1MC40LjAuMTc0MTc1MTM1MC42MC4wLjA.</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Donald_B._Lindsley_Prize_in_Behavioral_Neuroscience -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Donald_B._Lindsley_Prize_in_Behavioral_Neuroscience">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_career_awards"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:funding_length>
     </owl:NamedIndividual>
     
 
@@ -2040,8 +2145,14 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Early_Career_Award_Public_Engagement">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Undergraduate"/>
+            </owl:Restriction>
+        </rdf:type>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2</untitled-ontology-8:funding_length>
         <Application>https://www.aaas.org/awards/early-career-public-engagement/about</Application>
     </owl:NamedIndividual>
     
@@ -2051,12 +2162,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Experimental_Physics_Investigator_Initiative">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Physical_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
         <rdf:type>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
                 <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Tenure"/>
             </owl:Restriction>
         </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-10-25T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1250000</untitled-ontology-8:funding_amount>
+        <Application>https://www.aps.org/funding-recognition/grant/experimental-physics-investigator</Application>
     </owl:NamedIndividual>
     
 
@@ -2088,6 +2203,48 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Innovation_Career_Professional_Development_Psychology">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Psychological_Association"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-15T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:funding_length>
+        <Application>https://www.apadivisions.org/division-7/awards/research</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Julius_Axelrod_Prize -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Julius_Axelrod_Prize">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Outstanding_Career_Achievements"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/is_minority"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Women"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-08T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30000</untitled-ontology-8:funding_amount>
+        <Application>https://www.sfn.org/careers/awards/outstanding-career-and-research-achievements-awards/julius-axelrod-prize</Application>
     </owl:NamedIndividual>
     
 
@@ -2110,10 +2267,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Peter_Seeburg_Integrative_Nueroscience_Prize -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Peter_Seeburg_Integrative_Nueroscience_Prize">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Outstanding_Career_Achievements"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Underepresented_Groups"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline>2025-05-08T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100000</untitled-ontology-8:funding_amount>
+        <Application>https://www.sfn.org/careers/awards/outstanding-career-and-research-achievements-awards/peter-seeburg-integrative-neuroscience-prize</Application>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmacuetical_Roundtable_Research_Grant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmacuetical_Roundtable_Research_Grant">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Chemical_Society"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Grants"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Pharmaceuticals"/>
         <rdf:type>
             <owl:Restriction>
@@ -2123,7 +2300,7 @@
         </rdf:type>
         <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-17T00:00:00Z</untitled-ontology-8:deadline>
         <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">80000</untitled-ontology-8:funding_amount>
-        <untitled-ontology-8:funding_length>P12M</untitled-ontology-8:funding_length>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-8:funding_length>
         <Application>https://www.acs.org/funding/grants/acs-gci-pharmaceutical-roundtable-research-grant.html</Application>
     </owl:NamedIndividual>
     
@@ -2141,13 +2318,25 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Predoctoral_Fellowship">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Heart_Association"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Cardiovascular_Disease"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
         <rdf:type>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
-                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/pursuing_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
         </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-04T14:30:00-04:00</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</untitled-ontology-8:funding_amount>
+        <untitled-ontology-8:funding_length rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</untitled-ontology-8:funding_length>
     </owl:NamedIndividual>
     
 
@@ -2157,9 +2346,45 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Science_Technology_Policy_Fellowship">
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Association_Advancement_Sciences"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Fellowships"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/MD"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_degree"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PhD"/>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </rdf:type>
         <Application>https://fellowshipapp.aaas.org/app/main/page/application-overview</Application>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Walter_G_McMillen_Memorial_Award_Parkinsons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Walter_G_McMillen_Memorial_Award_Parkinsons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/American_Psychological_Association"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Awards"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/Graduate"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/has_status"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/ellamoore/ontologies/2025/2/untitled-ontology-8/PostDoctoral"/>
+            </owl:Restriction>
+        </rdf:type>
+        <untitled-ontology-8:deadline rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-11T00:00:00Z</untitled-ontology-8:deadline>
+        <untitled-ontology-8:funding_amount rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5000</untitled-ontology-8:funding_amount>
+        <Application>https://www.apadivisions.org/division-20/awards/mcmillen?tab=3</Application>
     </owl:NamedIndividual>
     
 
